@@ -13,6 +13,3 @@ Route::get('/content', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
-
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-
